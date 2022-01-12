@@ -17,7 +17,6 @@ var output = document.querySelector("#output");
 function calculate(){
     var totalSum = Number(angle1.value) + Number(angle2.value) + Number(angle3.value);
     // console.log("total sum = " + totalSum);
-    debugCode();
     if (totalSum === 180){
         output.innerHTML = "Is a triangle";
     } 
