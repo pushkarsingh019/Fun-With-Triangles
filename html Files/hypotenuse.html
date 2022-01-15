@@ -5,8 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
+    <link rel="stylesheet" href="../Css/style.css">
 </head>
 <body>
+
+    <nav>
+        <ul class="navbar-list">
+            <li class="navbar-items"><a 
+                class="navbar-links" href="./area.html">Area</a></li>
+            <li class="navbar-items"><a  
+                class="navbar-links"    href="./hypotenuse.html">Hypotenuse</a></li>
+            <li class="navbar-items"><a 
+                class="navbar-links"
+                href="./quiz.html">Quiz</a></li>
+            <li class="navbar-items"><a 
+                class="navbar-links"
+                href="./index.html">Is Triangle?</a></li>
+        </ul>
+    </nav>
+
+    <div class="main">
     <h1>Check Hypotenuse</h1>
     <h2>Length Of Hypotenuse = sqrt(a² + b²)</h2>
     <p>a =</p>
@@ -15,10 +33,11 @@
     <p>b = </p>
     <input type="Number" id="b" placeholder="enter the value of B"  />
     <br>
-    <button id="btn">Check Hypotenuse</button>
+    <button class="cta" id="btn">Check Hypotenuse</button>
     <h3 id="output">
 
     </h3>
+    </div>
 
 
     <script src="../JavaScript Files/hypotenuse.js"></script>
