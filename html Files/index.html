@@ -8,18 +8,43 @@
     <link rel="stylesheet" href="../Css/style.css">
 </head>
 <body>
-    <div class="main">
-    <header class="hero">
-        <h1>Fun With Triangles</h1>
-    </header>
-    <div class="Links">
-        <ul class="hero-list">
-            <li class="hero-list-items"><a class="main-links" href="./area.html">Find Area</a></li>
-            <li class="hero-list-items"><a class="main-links" href="./check.html">Check Is it is a trinagle?</a></li>
-            <li class="hero-list-items"><a class="main-links" href="./hypotenuse.html">Find Hypotenuse</a></li>
-            <li class="hero-list-items"><a class="main-links" href="./quiz.html">Triangle Quiz</a></li>
+
+    <!-- Navbar -->
+    <nav>
+        <ul class="navbar-list">
+            <li class="navbar-items"><a 
+                class="navbar-links" href="./area.html">Area</a></li>
+            <li class="navbar-items"><a  
+                class="navbar-links"    href="./hypotenuse.html">Hypotenuse</a></li>
+            <li class="navbar-items"><a 
+                class="navbar-links"
+                href="./quiz.html">Quiz</a></li>
+            <li class="navbar-items"><a 
+                class="navbar-links"
+                href="./index.html">Is Triangle?</a></li>
         </ul>
-    </div>
+    </nav>
+
+
+
+
+    <div class="main">
+    <!-- Is Triangle Element -->
+    <label class="input-label" for="">Angle 1(In Degrees)</label>
+    <br>
+    <input id="angle1" type="Number" />
+    <br>
+    <label class="input-label"  for="">Angle 2(In Degrees)</label>
+    <br>
+    <input id="angle2" type="Number"  />
+    <br>
+    <label class="input-label"  for="">Angle 3 (In Degrees)</label>
+    <br>
+    <input id="angle3" type="Number" />
+    <br>
+    <br>
+    <button class="cta" id="submit-btn">Is Triangle?</button>
+    <h2 id="output"></h2>
     </div>
 
     <script src="../JavaScript Files/index.js"></script>
